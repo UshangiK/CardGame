@@ -15,7 +15,9 @@ public class MainLogic : MonoBehaviour
     private const float MaxOffsetY = 5f;
     private const int DefaultRows = 2;
     private const int DefaultCols = 3;
-    
+
+    private SaveTemplate _saveFile;
+    private List<Card> _cardList = new ();
     private int _score = 0;
     private int _turn = 0;
     private Card _firstClickedCard;
@@ -28,12 +30,27 @@ public class MainLogic : MonoBehaviour
 
     private void Start()
     {
-        Vector3 startPos = cardPrefab.transform.position;
+        _saveFile = SaveSystem.ReadFromFile();
+        if (_saveFile._cardList.Count == 0)
+        {
+            Vector3 startPos = cardPrefab.transform.position;
+            PopulateUniqueIds();
+            InstantiateCards(_uniqueIds, startPos);
+        }
+        else
+        {
+            cardColumns = _saveFile._cardColumns;
+            cardRows = _saveFile._cardRows;
+            _turn = _saveFile._turn;
+            _score = _saveFile._score;
+            Events.InvokeTurnedEvent(_turn);
+            Events.InvokeScoredEvent(_score);
+            foreach (var cardSave in _saveFile._cardList)
+            {
+                InstantiateCard(cardSave._position, cardSave._id);
+            }
+        }
         
-
-        PopulateUniqueIds();
-
-        InstantiateCards(_uniqueIds, startPos);
     }
 
     private void ScaleCard(Card card) // Scales cards and distance between them in accordance to number of rows and columns
@@ -74,20 +91,27 @@ public class MainLogic : MonoBehaviour
         {
             for(int j = 0; j < cardRows; j++)
             {
-                var card = Instantiate(cardPrefab);
-                card.GetComponent<Card>().controller = this;
-                ScaleCard(card);
-                
                 int index = j * cardColumns + i;
                 int id = numbers[index];
-                
-                GiveCardId(id, card);
-    
                 float posX = (_offsetX * i) + startPos.x;
                 float posY = (_offsetY * j) + startPos.y;
-                card.transform.position = new Vector3(posX, posY, startPos.z);
+                Vector3 pos = new Vector3(posX, posY, startPos.z);
+                
+               InstantiateCard(pos, id);
             }
         }
+    }
+
+    private void InstantiateCard(Vector3 pos, int id)
+    {
+        var card = Instantiate(cardPrefab);
+        card.GetComponent<Card>().controller = this;
+        ScaleCard(card);
+                
+        GiveCardId(id, card);
+        
+        card.transform.position = pos;
+        _cardList.Add(card);
     }
 
     private static int[] ShuffleArray(int[] numbers) // Randomizes array's contents
@@ -128,6 +152,8 @@ public class MainLogic : MonoBehaviour
             yield return new WaitForSeconds(1f);
             first.Destroy();
             second.Destroy();
+            _cardList.Remove(first);
+            _cardList.Remove(second);
         }
         else
         {
@@ -136,7 +162,7 @@ public class MainLogic : MonoBehaviour
             first.TurnCardFaceDown();
             second.TurnCardFaceDown();
         }
-        
+        SaveSystem.SaveToFile(_score, _turn, cardRows, cardColumns, _cardList);
 
     }
 }
