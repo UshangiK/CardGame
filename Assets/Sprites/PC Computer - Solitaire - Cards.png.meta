@@ -1,0 +1,1856 @@
+fileFormatVersion: 2
+guid: c523685b0cfb36d41b95a62839d16a72
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd31b9acd72bdd4c8f0822dff2608d6
+      internalID: 1346742010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 480
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009bf3c288297ca47ba59a03acedc4f3
+      internalID: -1640124263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 480
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a402fd0e2d00c041808f168b1488f52
+      internalID: -989989891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 480
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b61aadcd7fa0d4a87b84aacb7b475b
+      internalID: 1918755981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_4
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 480
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a0844ff77b2084288826d05fb6680d
+      internalID: 2130333398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_5
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 480
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fff956e3a3f23e41b7f64b0b93a7321
+      internalID: 729326800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_6
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 480
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3077d775849a5ad4a83980d781810ea7
+      internalID: 681643661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_7
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 480
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41848fedf1af87946a59d5bf3f69bc1c
+      internalID: -756535210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_8
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 480
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de1bddea5decd242b7f80e7cf6a0d80
+      internalID: 117569765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_9
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 480
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd8e5a030bac164580cf823248a5800
+      internalID: 609767588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_10
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 480
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc79d10aa33df045ab1db10f126ffc4
+      internalID: -1568067974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_11
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 480
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b079a859008ef67469bbcc26b5a06d89
+      internalID: -1416945654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_12
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 480
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7958ec5387354d642b85df4d585ae8a4
+      internalID: 1996841540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5e9f70f25b95a4387b19ac58add63c
+      internalID: 1110710532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_14
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 384
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e366196916f5d4aba206830aede87a
+      internalID: -41039783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_15
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 384
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fccf4d96f39f30542be6d3cf0b61a8ee
+      internalID: 156933910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_16
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 384
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6481e482fc836f4497971623e1c3a2e
+      internalID: -1229980724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_17
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 384
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0911fe2d3893a4e9a23bbd9aaa2a8e
+      internalID: 972912495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_18
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 384
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc60a7e8292f2a043aaf35255297a377
+      internalID: 1582164596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_19
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 384
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed22d1eb3a0dda44db85d4c0588beab3
+      internalID: -932173207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_20
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 384
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6d3d57d4dc97343b7e6bb848bf0b45
+      internalID: 1875885049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_21
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 384
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3228a375f730dc4ba5c67b90e4bba46
+      internalID: 1608803467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_22
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 384
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0ef7dd0c2b76e4995b7e03b31fd21e
+      internalID: 1654110868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_23
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 384
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216ae221774d48946bebdcdc14c7fb25
+      internalID: -2061772990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_24
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 384
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d9d41853630754480829d11bcb32f6
+      internalID: -254940588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_25
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 384
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd0c8e427311bd40898b85ac4dc398a
+      internalID: 1682394743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0de66c6705923e4181e18c15e6683f6
+      internalID: 1918655508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_27
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 288
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4320f8347189fbb4a879bc1e5c3d5ba1
+      internalID: -1600026820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_28
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 288
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8a071d31c80a84a97d7675bbeba993
+      internalID: 1351753491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_29
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 288
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2073bc1c70d544b9178126aaed92f8
+      internalID: 380158131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_30
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 288
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b1021f10e35fa4897d0a3b1733c3a6
+      internalID: 2105146197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_31
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 288
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ef6536b5702d74bae3714a613fb36d
+      internalID: -1131120590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_32
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 288
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9519877c3f74e0545aadb0cb393cb130
+      internalID: 696069388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_33
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 288
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f037e15b0ca4c4db8cb87ff8b16089
+      internalID: 576580999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_34
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 288
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e1192098dcd4a4cbc8e103201e3c62
+      internalID: -888345603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_35
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 288
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4ca3b4d16b5bd4baf1fbd54eb035e3
+      internalID: -868416900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_36
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 288
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1c257e7f511c24f912d4e9f35af724
+      internalID: -652636482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_37
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 288
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0894157bbf88a7047ab3aac25d554369
+      internalID: 164900589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_38
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 288
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f842eee30fe824183d5e2bcf6b0594
+      internalID: 122177883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557af9ed7abfb9247968f9ed03cb6563
+      internalID: 279012325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_40
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 192
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83cc7263353856f42b280fa377a95368
+      internalID: 1189488366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_41
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 192
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ba4cd11bdd119428c33a487e0297a4
+      internalID: -1902417008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_42
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 192
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56927826c7d32e4191b8233188a3c51
+      internalID: -1793455530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_43
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 192
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0499cc453bf3a374881fd3ea74903085
+      internalID: -1334725612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_44
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 192
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f5eb06c4ced0145bbf3b06e5adc03f
+      internalID: -406160305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_45
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 192
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa96cbb18a8bc204b81ec68ea2dbc9e8
+      internalID: -232891681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_46
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 192
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e81c86cf8aa055468d69f96e102f54a
+      internalID: 1464407822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_47
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 192
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c36591fc54f8b41be00cba502b0ab9
+      internalID: 317572545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_48
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 192
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336d417448b40bf4ab2921f189249913
+      internalID: 567139569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_49
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 192
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76bc0f1cf93ac3a49b9d117c08bde0d2
+      internalID: 240391561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_50
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 192
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9516a60c56d421e478d6756e722d9203
+      internalID: -87860068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_51
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 192
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a87d0e334c924547a40c02a9864c095
+      internalID: 1865810463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebbcbd13a4553c94886dc8c8595bf3a3
+      internalID: -1087871119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_53
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 96
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77a9e3e7ccd85c499c6b660339dae38
+      internalID: -1870564997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_54
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 96
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1dec77a0af0e447adf51e49df1ab60
+      internalID: 372162101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_55
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 96
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd53125998e47c041beb2fa45187192c
+      internalID: -1216218286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_56
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 96
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1af8ce99ff49540813108c380e0363
+      internalID: -549100211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_57
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 96
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a34daa9eecc97438225ab9d0397d94
+      internalID: 855611098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_58
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 96
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01dcfde62f67a634ea9ab65797a75bff
+      internalID: 1211844477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_59
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 96
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77bddd7db79b8b846b93f82300d44f04
+      internalID: 707144654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_60
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 96
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89c55043fd5c50459f5a43edd3c48f9
+      internalID: 1413286617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_61
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 96
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d63824afd734074a9af5fc4637a737d
+      internalID: -879527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_62
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 96
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdf2d1071e67ee439dd357c3c473e0e
+      internalID: -1373885795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_63
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 96
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a59caeabe3d614458ddf7242cce4ca3
+      internalID: -1558140909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_64
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 96
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dcbe5621af59b044bcdfc58e0022a00
+      internalID: 1553718714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7dab5549bed4a841b8b8ddc378dbb02
+      internalID: -2079652370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_66
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 0
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee4a80c5717e544a981c137725f875d
+      internalID: 1840423837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_67
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 0
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306de0ffab91ec8459c2a924b4cf2a61
+      internalID: -184926665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_68
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 0
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87bdb9a3d00857f4abbedb4684ec4675
+      internalID: -1276840217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_69
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 0
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd7f1566b9dd5442acd6057c746e86b
+      internalID: -1879739457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_70
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 0
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adecbfc099f450543bab84332c9082f6
+      internalID: 1468484814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_71
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 0
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0609f083dd3e5b9439fd1add0d686877
+      internalID: -1576453294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_72
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 0
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e602cd658d3ee604ba0f81e32b7885df
+      internalID: -369037685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_73
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 0
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c538039fc6a42498015b16e339a0d0
+      internalID: 671748661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_74
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 0
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ed7f6e690996447a3a8bc7d0f4ca5f
+      internalID: 1310765853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_75
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 0
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a511c3e21162314409ab53760e54d623
+      internalID: -40427733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_76
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 0
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d3e194d5141ef42a15a300e004b33d
+      internalID: -1356348570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Solitaire - Cards_77
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 0
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52536dce944fa5b41aaac8a2597f32e2
+      internalID: -1389171840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC Computer - Solitaire - Cards_0: 1346742010
+      PC Computer - Solitaire - Cards_1: -1640124263
+      PC Computer - Solitaire - Cards_10: -1568067974
+      PC Computer - Solitaire - Cards_11: -1416945654
+      PC Computer - Solitaire - Cards_12: 1996841540
+      PC Computer - Solitaire - Cards_13: 1110710532
+      PC Computer - Solitaire - Cards_14: -41039783
+      PC Computer - Solitaire - Cards_15: 156933910
+      PC Computer - Solitaire - Cards_16: -1229980724
+      PC Computer - Solitaire - Cards_17: 972912495
+      PC Computer - Solitaire - Cards_18: 1582164596
+      PC Computer - Solitaire - Cards_19: -932173207
+      PC Computer - Solitaire - Cards_2: -989989891
+      PC Computer - Solitaire - Cards_20: 1875885049
+      PC Computer - Solitaire - Cards_21: 1608803467
+      PC Computer - Solitaire - Cards_22: 1654110868
+      PC Computer - Solitaire - Cards_23: -2061772990
+      PC Computer - Solitaire - Cards_24: -254940588
+      PC Computer - Solitaire - Cards_25: 1682394743
+      PC Computer - Solitaire - Cards_26: 1918655508
+      PC Computer - Solitaire - Cards_27: -1600026820
+      PC Computer - Solitaire - Cards_28: 1351753491
+      PC Computer - Solitaire - Cards_29: 380158131
+      PC Computer - Solitaire - Cards_3: 1918755981
+      PC Computer - Solitaire - Cards_30: 2105146197
+      PC Computer - Solitaire - Cards_31: -1131120590
+      PC Computer - Solitaire - Cards_32: 696069388
+      PC Computer - Solitaire - Cards_33: 576580999
+      PC Computer - Solitaire - Cards_34: -888345603
+      PC Computer - Solitaire - Cards_35: -868416900
+      PC Computer - Solitaire - Cards_36: -652636482
+      PC Computer - Solitaire - Cards_37: 164900589
+      PC Computer - Solitaire - Cards_38: 122177883
+      PC Computer - Solitaire - Cards_39: 279012325
+      PC Computer - Solitaire - Cards_4: 2130333398
+      PC Computer - Solitaire - Cards_40: 1189488366
+      PC Computer - Solitaire - Cards_41: -1902417008
+      PC Computer - Solitaire - Cards_42: -1793455530
+      PC Computer - Solitaire - Cards_43: -1334725612
+      PC Computer - Solitaire - Cards_44: -406160305
+      PC Computer - Solitaire - Cards_45: -232891681
+      PC Computer - Solitaire - Cards_46: 1464407822
+      PC Computer - Solitaire - Cards_47: 317572545
+      PC Computer - Solitaire - Cards_48: 567139569
+      PC Computer - Solitaire - Cards_49: 240391561
+      PC Computer - Solitaire - Cards_5: 729326800
+      PC Computer - Solitaire - Cards_50: -87860068
+      PC Computer - Solitaire - Cards_51: 1865810463
+      PC Computer - Solitaire - Cards_52: -1087871119
+      PC Computer - Solitaire - Cards_53: -1870564997
+      PC Computer - Solitaire - Cards_54: 372162101
+      PC Computer - Solitaire - Cards_55: -1216218286
+      PC Computer - Solitaire - Cards_56: -549100211
+      PC Computer - Solitaire - Cards_57: 855611098
+      PC Computer - Solitaire - Cards_58: 1211844477
+      PC Computer - Solitaire - Cards_59: 707144654
+      PC Computer - Solitaire - Cards_6: 681643661
+      PC Computer - Solitaire - Cards_60: 1413286617
+      PC Computer - Solitaire - Cards_61: -879527
+      PC Computer - Solitaire - Cards_62: -1373885795
+      PC Computer - Solitaire - Cards_63: -1558140909
+      PC Computer - Solitaire - Cards_64: 1553718714
+      PC Computer - Solitaire - Cards_65: -2079652370
+      PC Computer - Solitaire - Cards_66: 1840423837
+      PC Computer - Solitaire - Cards_67: -184926665
+      PC Computer - Solitaire - Cards_68: -1276840217
+      PC Computer - Solitaire - Cards_69: -1879739457
+      PC Computer - Solitaire - Cards_7: -756535210
+      PC Computer - Solitaire - Cards_70: 1468484814
+      PC Computer - Solitaire - Cards_71: -1576453294
+      PC Computer - Solitaire - Cards_72: -369037685
+      PC Computer - Solitaire - Cards_73: 671748661
+      PC Computer - Solitaire - Cards_74: 1310765853
+      PC Computer - Solitaire - Cards_75: -40427733
+      PC Computer - Solitaire - Cards_76: -1356348570
+      PC Computer - Solitaire - Cards_77: -1389171840
+      PC Computer - Solitaire - Cards_8: 117569765
+      PC Computer - Solitaire - Cards_9: 609767588
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
