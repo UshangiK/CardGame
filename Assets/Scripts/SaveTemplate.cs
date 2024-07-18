@@ -6,34 +6,34 @@ namespace DefaultNamespace
 {
     public class SaveTemplate
     {
-        public int _cardRows;
-        public int _cardColumns;
-        public int _score;
-        public int _turn;
-        public List<CardSave> _cardList;
+        public int CardRows;
+        public int CardColumns;
+        public int Score;
+        public int Turn;
+        public List<CardSave> CardList;
 
         public SaveTemplate(int score, int turn, int cardRows, int cardColumns, List<CardSave> cardList)
         {
-            _score = score;
-            _turn = turn;
-            _cardRows = cardRows;
-            _cardColumns = cardColumns;
-            _cardList = cardList;
+            Score = score;
+            Turn = turn;
+            CardRows = cardRows;
+            CardColumns = cardColumns;
+            CardList = cardList;
         }
 
-        public override string ToString() => "Save Template: cardColums: " + _cardColumns + " CardRows: " + _cardRows +
-                                             " Score: " + _score + "Turns: " + _turn;
+        public override string ToString() => "Save Template: cardColums: " + CardColumns + " CardRows: " + CardRows +
+                                             " Score: " + Score + "Turns: " + Turn;
     }
 
     public class CardSave
     {
-        public int _id;
-        public SimplePosition _position;
+        public int ID;
+        public SimplePosition Position;
 
         public CardSave(int id, Vector3 position)
         {
-            _id = id;
-            _position = new SimplePosition(position.x, position.y, position.z);
+            ID = id;
+            Position = new SimplePosition(position.x, position.y, position.z);
         }
 
         public class SimplePosition

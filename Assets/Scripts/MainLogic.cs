@@ -15,7 +15,10 @@ public class MainLogic : MonoBehaviour
     private const float MaxOffsetY = 5f;
     private const int DefaultRows = 2;
     private const int DefaultCols = 3;
-
+    private const float DefaultRatio = 1920f / 1080f;
+    
+    private float _currentRatio;
+    private float _multiplier;
     private SaveTemplate _saveFile;
     private List<Card> _cardList = new ();
     private int _score = 0;
@@ -27,11 +30,17 @@ public class MainLogic : MonoBehaviour
     private float _offsetX;
     private float _offsetY;
     private float _scale;
+    private float _screenHeightRatio;
+    private float _screenWidthRatio;
 
     private void Start()
     {
+        _currentRatio = (float) Screen.width / Screen.height;
+        _multiplier = _currentRatio / DefaultRatio;
+
         _saveFile = SaveSystem.ReadFromFile();
-        if (_saveFile._cardList.Count == 0)
+        
+        if (_saveFile.CardList.Count == 0)
         {
             Vector3 startPos = cardPrefab.transform.position;
             PopulateUniqueIds();
@@ -39,15 +48,15 @@ public class MainLogic : MonoBehaviour
         }
         else
         {
-            cardColumns = _saveFile._cardColumns;
-            cardRows = _saveFile._cardRows;
-            _turn = _saveFile._turn;
-            _score = _saveFile._score;
+            cardColumns = _saveFile.CardColumns;
+            cardRows = _saveFile.CardRows;
+            _turn = _saveFile.Turn;
+            _score = _saveFile.Score;
             Events.InvokeTurnedEvent(_turn);
             Events.InvokeScoredEvent(_score);
-            foreach (var cardSave in _saveFile._cardList)
+            foreach (var cardSave in _saveFile.CardList)
             {
-                InstantiateCard(cardSave._position, cardSave._id);
+                InstantiateCard(cardSave.Position, cardSave.ID);
             }
         }
         
@@ -55,13 +64,13 @@ public class MainLogic : MonoBehaviour
 
     private void ScaleCard(Card card) // Scales cards and distance between them in accordance to number of rows and columns
     {
-        _offsetX = MaxOffsetX / (cardColumns - 1);
-        _offsetY = MaxOffsetY / (cardRows - 1);
+        _offsetX = MaxOffsetX  / (cardColumns - 1);
+        _offsetY = MaxOffsetY  / (cardRows - 1);
 
-        _scale = (float)DefaultCols / cardColumns;
-        if (_scale > (float)DefaultRows / cardRows)
+        _scale = (float)DefaultCols * _multiplier / cardColumns;
+        if (_scale > (float)DefaultRows * _multiplier / cardRows)
         {
-            _scale = (float)DefaultRows / cardRows;
+            _scale = (float)DefaultRows * _multiplier / cardRows;
         }
 
         card.transform.localScale *= _scale;
@@ -93,8 +102,8 @@ public class MainLogic : MonoBehaviour
             {
                 int index = j * cardColumns + i;
                 int id = numbers[index];
-                float posX = (_offsetX * i) + startPos.x;
-                float posY = (_offsetY * j) + startPos.y;
+                float posX = (_offsetX * i + startPos.x) * _multiplier;
+                float posY = (_offsetY * j + startPos.y) * _multiplier;
                 Vector3 pos = new Vector3(posX, posY, startPos.z);
                 
                InstantiateCard(pos, id);
