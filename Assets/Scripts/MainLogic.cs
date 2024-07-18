@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using DefaultNamespace;
 using UnityEngine;
 
 public class MainLogic : MonoBehaviour
@@ -15,6 +16,8 @@ public class MainLogic : MonoBehaviour
     private const int DefaultRows = 2;
     private const int DefaultCols = 3;
     
+    private int _score = 0;
+    private int _turn = 0;
     private Card _firstClickedCard;
     private Card _secondClickedCard;
     private int[] _uniqueIds;
@@ -26,15 +29,14 @@ public class MainLogic : MonoBehaviour
     private void Start()
     {
         Vector3 startPos = cardPrefab.transform.position;
-
-        ScaleCard();
+        
 
         PopulateUniqueIds();
 
         InstantiateCards(_uniqueIds, startPos);
     }
 
-    private void ScaleCard() // Scales cards and distance between them in accordance to number of rows and columns
+    private void ScaleCard(Card card) // Scales cards and distance between them in accordance to number of rows and columns
     {
         _offsetX = MaxOffsetX / (cardColumns - 1);
         _offsetY = MaxOffsetY / (cardRows - 1);
@@ -45,7 +47,7 @@ public class MainLogic : MonoBehaviour
             _scale = (float)DefaultRows / cardRows;
         }
 
-        cardPrefab.transform.localScale *= _scale;
+        card.transform.localScale *= _scale;
     }
 
     private void PopulateUniqueIds() // Populates an array with pairs of unique IDs
@@ -74,12 +76,13 @@ public class MainLogic : MonoBehaviour
             {
                 var card = Instantiate(cardPrefab);
                 card.GetComponent<Card>().controller = this;
-
+                ScaleCard(card);
+                
                 int index = j * cardColumns + i;
                 int id = numbers[index];
                 
                 GiveCardId(id, card);
-
+    
                 float posX = (_offsetX * i) + startPos.x;
                 float posY = (_offsetY * j) + startPos.y;
                 card.transform.position = new Vector3(posX, posY, startPos.z);
@@ -108,16 +111,20 @@ public class MainLogic : MonoBehaviour
         }
         else
         {
+            _turn += 1;
+            Events.InvokeTurnedEvent(_turn);
             _secondClickedCard = card;
             StartCoroutine(CheckPairs(_firstClickedCard, _secondClickedCard));
         }
         _clickedFirst = !_clickedFirst;
     }
 
-    private static IEnumerator CheckPairs(Card first, Card second) // Checks a pair of cards to see if they are the same
+    private IEnumerator CheckPairs(Card first, Card second) // Checks a pair of cards to see if they are the same
     {
         if(first.ID == second.ID)
         {
+            _score += 1;
+            Events.InvokeScoredEvent(_score);
             yield return new WaitForSeconds(1f);
             first.Destroy();
             second.Destroy();

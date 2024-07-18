@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using DefaultNamespace;
+using UnityEditor;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class Card : MonoBehaviour
 {
@@ -8,6 +11,9 @@ public class Card : MonoBehaviour
     public MainLogic controller;
     
     [SerializeField] private GameObject cardBack;
+    [SerializeField] private float rotationDuration = 0.5f;
+
+    private bool _isClickable;
 
     private void Start()
     {
@@ -16,10 +22,10 @@ public class Card : MonoBehaviour
 
     public void OnMouseDown() // If card is facing down, shows its front and reports to controller
     {
-        if(cardBack.activeSelf)
+        if(cardBack.activeSelf && _isClickable)
         {
-            cardBack.SetActive(false);
             controller.CardClicked(this);
+            FlipCard(false);
         }
     }
 
@@ -33,9 +39,33 @@ public class Card : MonoBehaviour
         GetComponent<SpriteRenderer>().sprite = image;
     }
 
+    private void FlipCard(bool front)
+    {
+        _isClickable = false;
+        if (front)
+        {
+            StartCoroutine(Utils.RotateObject(gameObject.transform, new Vector3(0, 90f, 0), rotationDuration,
+                () =>
+                {
+                    cardBack.SetActive(true);
+                    StartCoroutine(Utils.RotateObject(gameObject.transform, new Vector3(0, 179f, 0), rotationDuration, () => _isClickable = true));
+                }));
+        }
+        else
+        {
+            StartCoroutine(Utils.RotateObject(gameObject.transform, new Vector3(0, 90f, 0), rotationDuration,
+                () =>
+                {
+                    cardBack.SetActive(false);
+                    StartCoroutine(Utils.RotateObject(gameObject.transform, new Vector3(0, 0, 0), rotationDuration, () => _isClickable = true));
+                }));
+        }
+    }
+    
+    
     public void TurnCardFaceDown() // Turns card face down
     {
-        cardBack.SetActive(true);
+        FlipCard(true);
     }
     
     public void Destroy() // Destroys card
