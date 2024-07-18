@@ -25,10 +25,5 @@ public class UIController : MonoBehaviour
     {
         turnText.text = "Turn: " + newTurnCount;
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }

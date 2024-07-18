@@ -129,6 +129,7 @@ public class MainLogic : MonoBehaviour
 
     public void CardClicked(Card card) // Checks if current clicked card is first or second and if it's second starts coroutine to check if they match
     {
+        Events.InvokeFlippedCardEvent();
         if(!_clickedFirst)
         {
             _firstClickedCard = card;
@@ -154,9 +155,14 @@ public class MainLogic : MonoBehaviour
             second.Destroy();
             _cardList.Remove(first);
             _cardList.Remove(second);
+            if (_cardList.Count == 0)
+            {
+                Events.InvokeWinEvent();
+            }
         }
         else
         {
+            Events.InvokeMissedEvent();
             yield return new WaitForSeconds(1f);
 
             first.TurnCardFaceDown();
